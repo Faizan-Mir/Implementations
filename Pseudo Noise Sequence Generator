@@ -2,7 +2,7 @@
 using namespace std;
 
 
-// Generation of PN Sequences using Shift Feedaback Registor Method. 
+// Generation of PN Sequences using Feedaback Shift Registor Method. 
 int main()
 {
 
@@ -17,12 +17,12 @@ vector<int> pn;
 
 // Initial State
 
-cout<<"Enter the Initital State of the SFR"<<endl;
+cout<<"Enter the Initital State of the FSR"<<endl;
 for(int i=0; i<N; i++){
     cin>>arr[i]; 
 }
 
-cout<<"States of the SFR"<<endl; 
+cout<<"States of the FSR"<<endl; 
 for(int i=0; i<N; i++){
     cout<<arr[i]<<" "; 
 }
